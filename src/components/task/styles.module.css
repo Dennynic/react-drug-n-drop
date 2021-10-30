@@ -1,0 +1,19 @@
+
+.withBoxShadow{
+    box-shadow: 0 4px 3px gray;
+}
+
+.item{
+    width: 100%;
+    border: 2px solid lightpink;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    cursor: grab;
+    background-color: #fcfcf9;
+}
+
+.item_wihout_shadow{
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: none;
+}
